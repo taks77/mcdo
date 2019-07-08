@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name = "viewport" content = "width = device-width,
+initial-scale = 1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/themes/my-custom-theme.css" />
+      <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+     <meta name = "viewport" content = "width = device-width,
+initial-scale = 1">
+    <link rel = "stylesheet" href =
+"https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src =
+"https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   </head>
+
+   <body>
+<style>
+     div.picture1 {
+        width:100%; /*width of your image*/
+        height:200px; /*height of your image*/
+        margin:2px; /* If you want no margin */
+        padding:2px; /*if your want to padding */
+     }
+
+     img {
+       width: 100%;
+       height: 100%;
+     }
+
+     .left {
+       width: 30%;
+       height: 30%;
+       float: left;
+       margin:5px; /* If you want no margin */
+       padding:3px; /*if your want to padding */
+     }
+
+</style>
+<!-- first page -->
+      <div data-role = "page" id = "page1">
+
+          <!--header-->
+
+          <div data-role="header" style="overflow:hidden;">
+
+            <img alt="Banner" title="Client Logo" src='banner.jpg' />
+
+            <a href="#" data-icon="gear" class="ui-btn-right">Options</a>
+            <div data-role="navbar">
+                  <ul>
+                      <li><a href="#page2" data-icon="heart">About us</a></li>
+                      <li><a href="#page3" data-icon="info">Menu</a></li>
+                      <li><a href="#page4" data-icon="star">Company
+info </a></li>
+                  </ul>
+              </div><!-- /navbar -->
+          </div><!-- /header -->
+          <!--header-->
+
+
+         <div role = "main" class = "ui-content">
+           <img class="left" alt="Banner" title="Client Logo"
+src='mcdo.jpg' />
+            <p> McDonald is the largest fast food chain in the
+Philippines, operating a nationwide network of over 750 stores. A
+dominant market leader in the Philippines, McDonald enjoys the lion's
+share of the local market that is more than all the other
+multinational brands combined. The company has also embarked on an
+aggressive international expansion plan in the USA, Vietnam, Hong
+Kong, Saudi Arabia, Qatar and Brunei, firmly establishing itself as a
+growing international QSR player.
+            </p>
+         </div>
+
+
+         <div data-role="footer">
+             <div data-role="navbar">
+                 <ul>
+                     <li><a href="#" data-icon="grid">Summary</a></li>
+                     <li><a href="#" data-icon="star"
+class="ui-btn-active">Favs</a></li>
+                     <li><a href="#" data-icon="gear">Setup</a></li>
+                 </ul>
+             </div><!-- /navbar -->
+     </div><!-- /footer -->
+      </div>
+
+<!-- end of first page -->
+
+<!-- second page -->
+      <div data-role = "page" id = "page2">
+         <div data-role = "About Us">
+            <h1>Menu</h1>
+         </div>
+
+         <div role = "main" class = "ui-content">
+            <p>McDonald's is an American fast food company, founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California, United States. They rechristened their business as a hamburger stand, and later turned the company into a franchise, with the Golden Arches logo being introduced in 1953 at a location in Phoenix, Arizona. In 1955, Ray Kroc, a businessman, joined the company as a franchise agent and proceeded to purchase the chain from the McDonald brothers. McDonald's had its original headquarters in Oak Brook, Illinois, but moved its global headquarters to Chicago in early 2018.</p>
+
+            <p><a href = "#page1">Back to previous page</a></p>
+         </div>
+
+         <div data-role = " ">
+            <h4></h4>
+         </div>
+      </div>
+
+<!-- end of second page -->
+
+<div data-role = "page" id = "page3">
+   <div data-role = "Menu">
+      <h1>Header Text</h1>
+   </div>
+
+   <div role = "main" class = "ui-content">
+      <p>
+        <img src = "m3.jpg" alt="1" height="30" width="30">
+
+        <img src = "m2.jpg" alt="1" height="30" width="30">
+
+        <img src = "m4.jpg" alt="1" height="30" width="30">
+
+        <img src = "m5.jpg" alt="1" height="30" width="30">
+
+      <p><a href = "#page1">Back to home</a></p>
+   </div>
+
+   <div data-role = " ">
+      <h4>Footer Text</h4>
+   </div>
+</div>
+<!-- second page -->
+      <div data-role = "page" id = "page4">
+         <div data-role = "Company info">
+            <h1></h1>
+         </div>
+
+         <div role = "main" class = "ui-content">
+             <img src = "images/jb.jpg" alt="1" height="30" width="30">
+            <p>
+              <center>McDonald Plaza Bldg.
+                F. Ortigas Jr. Road (formerly Emerald Avenue)<br>
+                Pasig City, Philippines<br>
+                Telephone: (647) 634-1111<br>
+                Website: www.McDonald.com.ph<br>
+            <p><a href = "#page1">Back to home</a></p>
+         </div>
+
+         <div data-role = " ">
+            <h4></h4>
+         </div>
+      </div>
+
+
+   </body>
+</html>
